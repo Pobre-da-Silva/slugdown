@@ -2,6 +2,7 @@
 	"name": "slugdown",
 	"version": "1.0.0",
 	"description": "A library that slugs your code down.",
+	"type": "module",
 	"main": "index.js",
 	"keywords": [
 		"slug",
