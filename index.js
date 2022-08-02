@@ -1,20 +1,20 @@
+let slugdown_time = 200;
+
+const sleep = function(ms) {
+	return new Promise(resolve => setTimeout(resolve, ms));
+};
+
 export const slugdown = {
-	slugdown_time: 200,
-
-	sleep: function(ms) {
-		return new Promise(resolve => setTimeout(resolve, ms));
-	},
-
 	set_slugdown_time: function(time) {
-		this.slugdown_time = time;
+		slugdown_time = time;
 	},
 
 	get_slugdown_time: function(time) {
-		return this.slugdown_time;
+		return slugdown_time;
 	},
 
 	slugdown: async function(target_func) {
-		await this.sleep(this.slugdown_time);
+		await sleep(slugdown_time);
 		target_func();
 	}
 };
