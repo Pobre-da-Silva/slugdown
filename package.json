@@ -1,0 +1,17 @@
+{
+	"name": "slugdown",
+	"version": "1.0.0",
+	"description": "A library that slugs your code down.",
+	"main": "index.js",
+	"keywords": [
+		"slug",
+		"down",
+		"slugdown",
+		"slow",
+		"slowdown",
+		"javascript"
+	],
+	"author": "decrovert",
+	"license": "GNU GPL v3",
+	"files": ["index.js"]
+}
