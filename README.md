@@ -19,10 +19,10 @@ one for slugging down your code and two for configuring the slugdown time.
 The first thing you should do is configuring this value.
 ```js
 // Returns the slugdown time (in milliseconds).
-slugdown.get_slugdown_time();
+slugdown.getSlugdownTime();
 
 // Sets the slugdown time. (It works with milliseconds.)
-slugdown.set_slugdown_time(200);
+slugdown.setSlugdownTime(200);
 ```
 
 After the configuration,
@@ -34,7 +34,7 @@ Note that this function should be used **asynchronously**.
  * that executes the desired code.
  * It must be run asynchronously in order to function properly. */
 await slugdown.slugdown(() => {
-	console.log("Hello world!);
+  console.log("Hello world!");
 });
 ```
 
