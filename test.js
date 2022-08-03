@@ -1,14 +1,14 @@
-import {slugdown} from "./index.js";
+import { slugdown } from "./index.js";
 
-if (slugdown.get_slugdown_time() !== 2500) {
-	slugdown.set_slugdown_time(2500);
+if(slugdown.getSlugdownTime() !== 2500) {
+  slugdown.setSlugdownTime(2500);
 }
 
 let months = [
-	"January", "February", "March", "April", "May", "June", "July",
-	"August", "September", "October", "November", "December"
+  "January", "February", "March", "April", "May", "June", "July",
+  "August", "September", "October", "November", "December"
 ];
 
-for (let month of months) {
-	await slugdown.slugdown(() => { console.log(month); });
+for(let month of months) {
+  await slugdown.slugdown(() => { console.log(month); });
 }
