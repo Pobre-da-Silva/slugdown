@@ -1,9 +1,13 @@
 {
   "name": "slugdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that slugs your code down.",
   "type": "module",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pobre-da-Silva/slugdown"
+  },
   "keywords": [
     "slug",
     "down",
@@ -13,6 +17,8 @@
     "javascript"
   ],
   "author": "decrovert",
-  "license": "GNU GPL v3",
-  "files": ["index.js"]
+  "contributors": [
+    "GiverPlay007"
+  ],
+  "license": "GPL-3.0-only"
 }
