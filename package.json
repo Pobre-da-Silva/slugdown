@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pobre-da-Silva/slugdown"
+    "url": "git+https://github.com/Pobre-da-Silva/slugdown.git"
   },
   "keywords": [
     "slug",
@@ -20,5 +20,12 @@
   "contributors": [
     "GiverPlay007"
   ],
-  "license": "LGPL-3.0-only"
+  "license": "LGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/Pobre-da-Silva/slugdown/issues"
+  },
+  "homepage": "https://github.com/Pobre-da-Silva/slugdown#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
